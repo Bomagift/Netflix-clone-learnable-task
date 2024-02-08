@@ -1,0 +1,188 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    color: #fff;
+}
+
+header {
+width: 100%;
+padding: 10px 8%;
+position: relative;
+height: 100vh;
+background-image: linear-gradient(rgba(0,0,0.7),rgba(0,0,0,0.7)), url(images/header-img.png);
+background-size: cover;
+background-position: center;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 0;
+}
+
+.header-logo{
+    width: 150px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+nav button{
+padding:5px 10px;
+border: 0;
+cursor: pointer;
+outline: 0;
+background: #db0001;
+color: #fff;
+font-size: 12;
+border-radius: 4px;
+margin-left: 10px;
+}
+.English-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 5px 5px;
+}
+
+.English-btn img{
+    width: 10px;
+    margin: 10px;
+}
+.header-writeup{
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+ position: absolute;
+ margin-top: 100px;
+}
+
+.header-writeup h1{
+    font-size: 60px;
+    line-height: 70px;
+    max-width: 650px;
+    font-weight: 600;
+}
+.header-writeup h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email{
+    background: #fff;
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+.email img{
+    width: 10px;
+    margin: 10px;
+}
+.get-started{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.first-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+.first-container img{
+    width: 400px;
+}
+.second-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-container img{
+    width: 400px;
+}
+
+.third-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-container img{
+    width: 400px;
+}
+
+.fourth-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-container img{
+    width: 400px;
+}
+h2{
+    font-size:30px ;
+    padding: 10px;
+    font-weight: 700;
+ 
+}
+.watch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+   
+}
+.unlimited{
+    display: flex;
+    flex-direction: column;
+    
+}
+.create{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+hr{
+    color: #222222;
+    
+}
+.fifth-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.fifth-container h2{
+    text-align: center;
+}
