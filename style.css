@@ -109,3 +109,136 @@ text-align: center;
    
     
 }
+
+.content-container{
+    padding: 50px 15% 12px;
+    font-size: 22px;
+      
+       
+        
+}
+.writeup-row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.images{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.images img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.content-container h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.question{
+    padding: 10px 11px;
+    text-align: center;
+    font-size: 19px;
+}
+.question{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.question li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.question li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-size: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+label::after{
+    content: '+';
+    font-size: 35px;
+    position: absolute;
+    right: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+
+.question.email-signup{
+    max-width: 500px;
+    margin: 17px auto 54px;
+}
+
+
+
+.question p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+.footer h2{
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+
+.footer-row{
+    display: flex;
+    gap: 7rem;
+}
+.footer .column a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .footer-row{
+    align-items: flex-start;
+    padding: 10px 0;
+
+}
+.footer .English-btn{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.footer p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sign-in-here  a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+     }
