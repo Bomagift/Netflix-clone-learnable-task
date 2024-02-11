@@ -60,3 +60,37 @@
     }
     
    
+    @media only screen and (max-width: 767px) {
+      header img {
+        width: 150px; 
+        padding: 10px; 
+      }
+      
+      .writeup h2 {
+        font-size: 24px; 
+      }
+      
+      .avatar {
+        display: block; 
+        padding: 10px; 
+      }
+      
+      .avatar img {
+        width: 100%; 
+        margin: 0 auto; 
+      }
+      
+      .avatar p {
+        text-align: center; 
+        margin-top: 10px; 
+      }
+      
+      .button {
+        justify-content: center; 
+        padding: 10px; 
+      }
+      
+      .button-container {
+        padding: 20px; 
+      }
+  }

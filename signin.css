@@ -160,25 +160,65 @@ section a:hover{
 
 
     
-    
-    @media (max-width: 740px) {
-        body::before{
-            display: none;
-        }
-        nav, section {
-            padding: 20px;
-        }
-        nav a img {
-            width: 140px;
-        }
-    
-        section{
-            top: 43%;
-            width: 100%;
-        }
-    
-        section form{
-            margin: 25px 0 40px ;
-        }
+@media only screen and (max-width: 767px) {
+    body::before {
+        background-size: cover; 
     }
-    
+
+    nav {
+        padding: 15px; 
+    }
+
+    nav .logo {
+        width: 120px; 
+    }
+
+    section {
+        width: 90%; 
+        padding: 30px; 
+    }
+
+    section h2 {
+        font-size: 1.5rem; 
+    }
+
+    section form {
+        margin: 15px 0 40px; 
+    }
+
+    section .email_form,
+    section .password_form {
+        height: 40px; 
+    }
+
+    section .email_form input,
+    section .password_form input {
+        font-size: 0.9rem; 
+    }
+
+    section button {
+        font-size: 0.9rem; 
+        padding: 12px 0; 
+        margin: 15px 0 5px; 
+    }
+
+    form .form_help {
+        flex-direction: column; 
+    }
+
+    form .remember_me {
+        margin-top: 10px; 
+    }
+
+    form .remember_me input {
+        margin-right: 3px; 
+    }
+
+    form .form_help :where(label, a) {
+        font-size: 0.8rem; }
+
+    section small {
+        margin-top: 10px; 
+    }
+} 
+   

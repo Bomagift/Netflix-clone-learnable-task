@@ -234,3 +234,72 @@ input[type="radio"]{
     margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 767px) {
+    /* Adjustments for header */
+    header {
+      padding: 20px 5%;
+      height: auto;
+      background-image: none;
+      text-align: center;
+    }
+    
+    /* Adjustments for logo */
+    .header-logo {
+      width: 120px;
+    }
+    
+    /* Adjustments for navigation */
+    nav {
+      padding: 10px 5%;
+    }
+    
+    /* Adjustments for navigation buttons */
+    nav button {
+      margin-left: 5px;
+      font-size: 10px;
+    }
+    
+    /* Adjustments for header writeup */
+    .header-writeup {
+      margin-top: 50px;
+    }
+    
+    /* Adjustments for header headings */
+    .header-writeup h1 {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    
+    /* Adjustments for email signup */
+    .email {
+      margin-top: 20px;
+    }
+    
+    /* Adjustments for email signup button */
+    .email button {
+      font-size: 8px;
+      padding: 8px 15px;
+    }
+    
+    /* Adjustments for content container */
+    .content-container {
+      padding: 30px 5%;
+      font-size: 18px;
+    }
+    
+    /* Adjustments for content container headings */
+    .content-container h2 {
+      font-size: 30px;
+    }
+    
+    /* Adjustments for questions section */
+    .question {
+      margin: 30px auto;
+      max-width: 90%;
+    }
+    
+    /* Adjustments for footer */
+    .footer {
+      padding: 30px 5%;}
+  }
+  
