@@ -161,6 +161,10 @@ nav li {
     margin-bottom: 10px;
     color: #777;
 }
+
+.footer-img img{
+  width: 30px;
+}
 .English-btn{
     display: inline-flex;
     align-items: center;
@@ -197,8 +201,8 @@ nav li {
   }
   
   header img {
-    width: 30px;
-    padding: 2px;
+    width: 40px;
+    padding-top: 10px;
   }
   
   h4 {
@@ -215,7 +219,7 @@ nav li {
   }
   
   nav ul {
-    display: block; 
+    display: none; 
     padding-left: 0;
   }
   
@@ -235,7 +239,7 @@ nav li {
   }
   
   .movies img {
-    width: 100%; 
+    width: 50%; 
   }
   
   .about img {
@@ -249,14 +253,14 @@ nav li {
   
   .first-button,
   .second-button {
-    width: 100%; 
+    width: 50%; 
   }
   
   .images {
     width: 100%; 
     object-fit: cover;
     transition: transform 450ms;
-    max-height: 130px;
+    max-height: 120px;
   }
   
   .images:hover {
@@ -267,7 +271,7 @@ nav li {
     display: flex;
     overflow-y: hidden;
     overflow-x: auto; 
-    padding: 15px;
+    padding: 10px;
   }
   
   .picture-row::-webkit-scrollbar {
@@ -275,11 +279,11 @@ nav li {
   }
   
   .images-one {
-    max-height: 190px;
+    max-height: 150px;
   }
   
   .images-two {
-    max-height: 490px;
+    max-height: 450px;
   }
   
   .footer {
@@ -295,6 +299,10 @@ nav li {
   .footer-row {
     display: flex;
     gap: 7rem;
+  }
+
+  .footer-img img{
+    width: 20px;
   }
   
   .footer .column a {
